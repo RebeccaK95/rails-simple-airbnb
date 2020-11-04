@@ -1,0 +1,20 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.container {
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.flat-card {
+  border: 1px solid #545b62;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.link {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+
+<h2><%= @flat.name %></h2>
+<ul class="list-group mb-3">
+  <li class="list-group-item"><p><%= @flat.description %></li>
+  <li class="list-group-item"><p><%= @flat.address %></li>
+  <li class="list-group-item"><%= @flat.number_of_guests %></li>
+  <li class="list-group-item"><%= @flat.price_per_night %></li>
+</ul>
+
+<%= link_to "Go back to all flats", flats_path  %>

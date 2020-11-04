@@ -1,0 +1,10 @@
+<h1>Add a new flat</h1>
+
+<%= simple_form_for @flat do |r| %>
+  <%= r.input :name %>
+  <%= r.input :description %>
+  <%= r.input :address %>
+  <%= r.input :number_of_guests %>
+  <%= r.input :price_per_night %>
+  <%= r.button :submit %>
+<% end %>
